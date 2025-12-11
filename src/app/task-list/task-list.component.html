@@ -1,0 +1,7 @@
+<div *ngFor="let task of tasks">
+    <p>{{task.id}}</p>
+    <h3>{{ task.title }}</h3>
+    <p>{{ task.description }}</p>
+    <p>Status: {{ task.completed ? 'Completed' : 'Pending' }}</p>
+    <hr>
+</div>
